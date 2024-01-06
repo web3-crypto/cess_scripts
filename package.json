@@ -1,0 +1,33 @@
+{
+  "name": "cess-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node src/test/random.ts",
+    "claim_cess": "npx ts-node src/claim.ts",
+    "invite": "npx ts-node src/cess_community.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.6",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.11.2",
+    "@polkadot/keyring": "^12.6.2",
+    "@polkadot/util-crypto": "^12.6.2",
+    "axios": "^1.6.5",
+    "axios-mock-adapter": "^1.22.0",
+    "bip39": "^3.1.0",
+    "cess-js-sdk": "^0.8.9",
+    "lodash": "^4.17.21",
+    "qs": "^6.11.2",
+    "readline-sync": "^1.4.10"
+  }
+}
